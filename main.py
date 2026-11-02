@@ -1,6 +1,7 @@
 from pico2d import *
 from boy import Boy
 from grass import Grass
+from grass2 import Grass2
 import game_world
 
 
@@ -33,8 +34,8 @@ def reset_world():
     grass = Grass()
     game_world.add_object(grass, 0)
 
-    grass2 = Grass()
-    game_world.add_object(grass, 2)
+    grass2 = Grass2()
+    game_world.add_object(grass2, 1)
 
 
 
